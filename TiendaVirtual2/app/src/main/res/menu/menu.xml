@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- menu con submenú -->
+    <item
+        android:id="@+id/nuevoCliente"
+        android:title="Nuevo cliente">
+        <menu>
+            <item
+                android:id="@+id/aceptar"
+                android:title="Aceptar" />
+            <item
+                android:id="@+id/cancelar"
+                android:title="Cancelar" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/vistaSimple"
+        android:title="Vista simple" />
+
+    <item
+        android:id="@+id/vistaCompleja"
+        android:title="Vista compleja" />
+
+    <item
+        android:id="@+id/modificar"
+        android:title="Modificar" />
+</menu>

@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.fdelp.concesionario.Principal">
+    <item
+        android:id="@+id/cochesNuevos"
+        android:orderInCategory="100"
+        android:title="Coches nuevos"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/cochesUsados"
+        android:orderInCategory="100"
+        android:title="Coches usados"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/extras"
+        android:orderInCategory="100"
+        android:title="Extras"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/dondeEstamos"
+        android:orderInCategory="100"
+        android:title="¿Dónde estamos?"
+        app:showAsAction="never" />
+</menu>

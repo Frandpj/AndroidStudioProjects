@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wpprsnew"
+    tools:context=".Ayuda">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txvAyuda"
+            android:layout_width="match_parent"
+            android:layout_height="309dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="0dp"
+            android:text='En la ventana principal tenemos 4 botones los cuales se pueden usar: El primero es "Campeones" el cual nos lleva a una lista con varios campeones y al pulsar en lo alto de cada uno se mostrarán las historias de los campeones. El segundo es “Análisis de campeones”, el cual nos lleva a una lista de campeones que al pulsar en lo alto de cada uno nos mostrarán sus habilidades y pasivas. El tercero es “Equipos lvp lol” el cual al pulsar nos mostrarán los equipos más famosos de este juego. El cuarto es “Ayuda” el cual nos mostrará esta ventana. '
+            android:textColor="@android:color/background_light"
+            android:textSize="20sp" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

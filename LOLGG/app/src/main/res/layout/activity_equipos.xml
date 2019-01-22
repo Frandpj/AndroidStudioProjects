@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo2"
+    tools:context=".Equipos">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fondo3"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/lFnactic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/fnatic"
+                android:layout_width="15dp"
+                android:layout_height="125dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/fnatic" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/top"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Top: Bwipo/Soaz"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/jungle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Jungle: Broxah"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="18sp"
+                    tools:text="Jungle: Broxah" />
+
+                <TextView
+                    android:id="@+id/mid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Mid: Caps"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="18sp"
+                    tools:text="Mid: Caps" />
+
+                <TextView
+                    android:id="@+id/support"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Support: Hylissang"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="18sp"
+                    tools:text="Support: Hylissang" />
+
+                <TextView
+                    android:id="@+id/adc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Adc: Rekkles"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="18sp"
+                    tools:text="Adc: Rekkles" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lG2"
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/fnatic"
+                    android:layout_width="15dp"
+                    android:layout_height="125dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/g2" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/top"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Top: Wunder/Sacre"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/jungle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Jungle: Jankos"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp"
+                        tools:text="Jungle: Jankos" />
+
+                    <TextView
+                        android:id="@+id/mid"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Mid: Perkz"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp"
+                        tools:text="Mid: Perkz" />
+
+                    <TextView
+                        android:id="@+id/support"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Support: Wadid"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp"
+                        tools:text="Support: Wadid" />
+
+                    <TextView
+                        android:id="@+id/adc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Adc: Hjarnan"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp"
+                        tools:text="Adc: Hjarnan" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lCloud9"
+            android:layout_width="match_parent"
+            android:layout_height="242dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/fnatic"
+                android:layout_width="15dp"
+                android:layout_height="125dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/cloud9" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/top"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Top: Licorice"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/jungle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Jungle: Svenskeren/Blaber"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="18sp"
+                    tools:text="Jungle: Svenskeren/Blaber" />
+
+                <TextView
+                    android:id="@+id/mid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Mid: Jensen"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="18sp"
+                    tools:text="Mid: Jensen" />
+
+                <TextView
+                    android:id="@+id/support"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Support: Zeyzal"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="18sp"
+                    tools:text="Support: Zeyzal" />
+
+                <TextView
+                    android:id="@+id/adc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Adc: Sneaky"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="18sp"
+                    tools:text="Adc: Sneaky" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
